@@ -11,6 +11,8 @@ public class CursoJava {
         ArrayList<Integer> par = new ArrayList<>();
         ArrayList<Integer> impar = new ArrayList<>();
 
+        Integer vetor[] = {3,4,6,7,};
+
          valores.add(1);
         valores.add(2);
         valores.add(3);
@@ -23,6 +25,10 @@ public class CursoJava {
         //A ideia e que o metodo seja usado no mesmo lugar em que foi declarado
         valores.forEach((v)->{dobro.add(v*2);});
 
+
+
+
+        System.out.println();
 
         System.out.println(valores);
         System.out.println(dobro);
